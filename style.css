@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #07374a;
+    color: white; 
+}
+
+.bar
+{
+    position: fixed;
+    text-align: center;
+    margin-left: 68%;
+    
+    
+}
+.navlink
+{
+    text-decoration: none;
+    color:  white;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.navlink:hover
+{
+    color: black;
+}
+.bar ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+    font-size: x-large;
+    font-family: "Poppins", sans-serif;
+   
+    
+}
+
+.button
+{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 5%;
+    text-align: center;
+    color:white;
+    padding: 10px;
+    display: block;
+    
+}
+.button:hover{
+    color: black;
+}
+
+#home p{
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#home
+{
+    background-color:#25b79f;
+    color:  #004a3d;
+    padding-top: 200px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 400px;
+    text-align: center; 
+    
+    
+}
+
+#home h1
+{
+    font-size: 50px;
+}
+.large-icon
+{
+   
+    width: 400px;
+    height: 400px;
+    
+    border-radius: 30%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    padding-right: -50%;
+    padding-left: -20%;
+
+    
+    
+    overflow: hidden;
+    margin-right: 70%;
+
+}
+#bio article h1{
+    letter-spacing: 0.5px;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+    color: #25b79f ;
+}
+#bio
+{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 8%;
+    padding-right: 30%;
+    padding-bottom: 250px;
+}
+#bio h1
+{
+    color: #25b79f;
+    margin-bottom: 500px;
+    text-align: 20px;
+    
+   
+   
+    padding-left: 200px;
+    
+    
+  
+}
+#bio h2{
+    color: #25b79f;
+    text-align: right;
+    padding-inline-start: 5%;
+   
+    
+}
+#bio article
+{
+    padding-left: 50px;  
+}
+
+
+
+#portfolio
+{
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 17%;
+    margin-bottom: 0%;
+    background-color:#25b79f;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#portfolio h2,p{
+    color: white;
+}
+hr{
+    width: 500px;
+    margin-bottom: 20px;
+}
+#portfolio h2{
+    padding-top: 70px; 
+    color: black;
+
+}
+#portfolio #first{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: black;  
+}
+.port-div h4{
+    color: white;
+    font-size: 25px;
+}
+.port-div p{
+    color: white;
+    padding-bottom: 50px;
+    
+}
+.small-icon
+{
+    height:50px;
+    width: 50px;
+    padding-bottom: 12%;
+}
+
+
+
+.languageskill
+{
+    width: 30%;
+}
+.skill h4{
+    padding-bottom: 10%;
+    font-size: x-large;
+    color: #25b79f;
+}
+
+.skill ul
+{
+    list-style: none;
+}
+progress
+{
+    height: 10px;
+    border-radius: 90%;
+    width: 120%;
+    
+}
+progress::-webkit-progress-value {background-color:#25b79f}
+#skills
+{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8%;
+}
+#skills ul{
+    list-style: none;
+    font-size: 1.5em;
+}
+#skills ul li{
+    margin: 10px 0px;
+}
+#skills h3
+{
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 30px;
+    color: #25b79f;
+}
+.skill
+{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 20%;
+    height: 200px;
+}
+.abc p{
+    font-size: larger;
+    
+}
+button
+{
+    margin-top: 30px;
+    width: 150px;
+    border: 2px solid rgb(120, 255, 120);
+    background: green;
+}
+#klkl
+{
+    color: ghostwhite;
+}
+#contact
+{
+    color:#07374a;
+    background-color:#25b79f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+#contact h2
+{
+    padding-top: 2%;    
+    padding-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+#contact p{
+    color:#07374a;
+    text-align: center;
+    padding: 1.5px;
+   font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+#contact img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#25b79f;
+    color: black;
+    margin-right: 5px;
+}
+.about h1
+{
+    margin-left:100%;
+    width: 70%;
+    font-size: 3rem;
+}
+#bio p{
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 380%;
+    padding-inline-start: 5%;
+}
+
